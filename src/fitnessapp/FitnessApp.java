@@ -16,6 +16,7 @@ public class FitnessApp {
     public static void main(String[] args) {
         // TODO code application logic here
         //Sytem
+        System.out.print("Iveto");
     }
     
 }
