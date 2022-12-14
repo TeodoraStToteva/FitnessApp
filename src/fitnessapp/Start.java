@@ -35,7 +35,7 @@ public class Start extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
         jPanel1.setForeground(new java.awt.Color(153, 153, 255));
 
-        jLabel1.setText("Logo1");
+        jLabel1.setText("Logo2");
 
         jButton2.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 48)); // NOI18N
         jButton2.setForeground(new java.awt.Color(4, 4, 101));
