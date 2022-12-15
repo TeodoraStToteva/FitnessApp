@@ -89,6 +89,7 @@ public class Start extends javax.swing.JFrame {
         Gender g = new Gender();
         g.show();
         dispose();
+        //hello!
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
