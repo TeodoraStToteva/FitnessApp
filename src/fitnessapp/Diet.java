@@ -125,7 +125,7 @@ public class Diet extends javax.swing.JFrame {
         w.show();
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
-
+    
     /**
      * @param args the command line arguments
      */

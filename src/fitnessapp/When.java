@@ -130,18 +130,24 @@ public class When extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    public int br1=0, br7=0;
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         String a = (String)jComboBox1.getSelectedItem();
-        int br1=0, br7=0;
         if(a.equals("Select one item"))
         {
             JOptionPane.showMessageDialog(null, "Select another item.");
+            br1=0;
+            br7=0;
         }
         else if(a.equals("1"))
         {
-            JOptionPane.showMessageDialog(null, "There won't be visible results after a short period of time.");
+            if(br1==0)
+            {           
+                JOptionPane.showMessageDialog(null, "There won't be visible results after a short period of time.");
+            }
             br1++;
+            br7=0;
             if(br1>1)
             {
                 MainPage mp = new MainPage();
@@ -151,8 +157,12 @@ public class When extends javax.swing.JFrame {
         }
         else if(a.equals("7"))
         {
-            JOptionPane.showMessageDialog(null, "This program may be too intense. Continue at your own risk.");
+            if(br7==0)
+            {
+                JOptionPane.showMessageDialog(null, "This program may be too intense. Continue at your own risk.");
+            }
             br7++;
+            br1=0;
             if(br7>1)
             {
                 MainPage mp = new MainPage();
