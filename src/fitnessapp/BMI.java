@@ -4,6 +4,7 @@
  */
 package fitnessapp;
 
+
 /**
  *
  * @author 20122019
@@ -13,9 +14,11 @@ public class BMI extends javax.swing.JFrame {
     /**
      * Creates new form BMI
      */
+
     public BMI() {
         initComponents();
     }
+
     private int h;
     private double kg;
     public int getH()
