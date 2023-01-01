@@ -4,6 +4,8 @@
  */
 package fitnessapp;
 
+
+
 /**
  *
  * @author 20122019
@@ -125,18 +127,23 @@ public class Height extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        // TODO add your handling code here:     
         Years y = new Years();
         y.show();
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        Weight w = new Weight();
-        w.show();
-        dispose();
+        // TODO add your handling code here: 
+        String h1 = jTextField1.getText();
+        new Weight(h1).setVisible(true);
+        setVisible(false);
+        //Weight w = new Weight();
+        //w.show();
+        //dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+    
+    
 
     /**
      * @param args the command line arguments
@@ -169,10 +176,10 @@ public class Height extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Height().setVisible(true);
-            }
+            }  
         });
+         
     }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;

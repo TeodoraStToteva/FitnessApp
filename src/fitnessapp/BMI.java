@@ -4,6 +4,8 @@
  */
 package fitnessapp;
 
+//import javax.swing.JLabel;
+
 
 /**
  *
@@ -18,8 +20,14 @@ public class BMI extends javax.swing.JFrame {
     public BMI() {
         initComponents();
     }
+    /*String h11;
+    public BMI(String h10){
+        initComponents(); 
+        h11 = h10;
+        
+    }*/
 
-    private int h;
+    /*private int h;
     private double kg;
     public int getH()
     {
@@ -36,7 +44,7 @@ public class BMI extends javax.swing.JFrame {
     public void setKg(double kg) 
     {
         this.kg = kg;
-    }
+    }*/
 
     
 
@@ -51,12 +59,15 @@ public class BMI extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
         jLabel1.setText("jLabel1");
+
+        jLabel2.setText("jLabel2");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -65,13 +76,17 @@ public class BMI extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(133, 133, 133)
                 .addComponent(jLabel1)
-                .addContainerGap(373, Short.MAX_VALUE))
+                .addGap(94, 94, 94)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(242, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(152, 152, 152)
-                .addComponent(jLabel1)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2))
                 .addContainerGap(283, Short.MAX_VALUE))
         );
 
@@ -92,7 +107,7 @@ public class BMI extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    
     /**
      * @param args the command line arguments
      */
@@ -126,10 +141,12 @@ public class BMI extends javax.swing.JFrame {
                 new BMI().setVisible(true);
             }
         });
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    public javax.swing.JLabel jLabel1;
+    public javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

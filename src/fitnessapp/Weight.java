@@ -16,6 +16,11 @@ public class Weight extends javax.swing.JFrame {
     public Weight() {
         initComponents();
     }
+    String h2;
+    public Weight(String h1){
+        initComponents(); 
+        h2 = h1;
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -125,9 +130,16 @@ public class Weight extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        String h3 = h2;
+        String w1 = jTextField1.getText();
+        new Diet(h3,w1).setVisible(true);
+        setVisible(false);
+        /*Weight h4 = new Weight();
+        h4.height1(h4);
+        h4.out(h4);
         Diet d = new Diet();
         d.show();
-        dispose();
+        dispose();*/
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

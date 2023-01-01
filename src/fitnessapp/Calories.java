@@ -16,6 +16,13 @@ public class Calories extends javax.swing.JFrame {
     public Calories() {
         initComponents();
     }
+    String h5;
+    String w3;
+    public Calories(String h4, String w2){
+        initComponents(); 
+        h5 = h4;
+        w3 = w2;
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -143,9 +150,12 @@ public class Calories extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        What w = new What();
+        String h6 = h5;
+        new What(h6,w3).setVisible(true);
+        setVisible(false);
+        /*What w = new What();
         w.show();
-        dispose();
+        dispose();*/
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

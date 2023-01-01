@@ -16,6 +16,13 @@ public class Diet extends javax.swing.JFrame {
     public Diet() { 
         initComponents();
     }
+    String h4;
+    String w2;
+    public Diet(String h3, String w1){
+        initComponents(); 
+        h4 = h3;
+        w2 = w1;
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -114,16 +121,22 @@ public class Diet extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        Calories c = new Calories();
+        String h5 = h4;
+        new Calories(h5,w2).setVisible(true);
+        setVisible(false);
+        /*Calories c = new Calories();
         c.show();
-        dispose();
+        dispose();*/
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        What w = new What();
+        String h5 = h4;
+        new What(h5,w2).setVisible(true);
+        setVisible(false);
+        /*What w = new What();
         w.show();
-        dispose();
+        dispose();*/
     }//GEN-LAST:event_jButton2ActionPerformed
     
     /**

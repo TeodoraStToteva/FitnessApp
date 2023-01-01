@@ -15,6 +15,13 @@ public class What extends javax.swing.JFrame {
     public What() {
         initComponents();
     }
+    String h7;
+    String w4;
+    public What(String h, String w){
+        initComponents(); 
+        h7 = h;
+        w4 = w;
+    }
 
     /** This method is called from within the constructor to
      * initialize the form.
@@ -143,9 +150,12 @@ public class What extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        When w = new When();
+        String h8 = h7;
+        new When(h8,w4).setVisible(true);
+        setVisible(false);
+        /*When w = new When();
         w.show();
-        dispose();
+        dispose();*/
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
