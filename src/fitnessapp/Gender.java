@@ -5,6 +5,8 @@
 
 package fitnessapp;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author 20122019
@@ -109,12 +111,16 @@ public class Gender extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String a;
-        a=Gender.getSelection().getActionCommand();
-        if(a!= null) {}
-        Years y = new Years();
-        y.show();
-        dispose();
+        if(jRadioButton1.isSelected() || jRadioButton2.isSelected()) 
+        {
+            Years y = new Years();
+            y.show();
+            dispose();
+        }
+        else
+        {
+            JOptionPane.showMessageDialog(null, "Please choose something.");
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
