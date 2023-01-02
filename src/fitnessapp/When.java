@@ -129,7 +129,20 @@ public class When extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    public int br1=0, br7=0;
+    public static  int br1=0;
+    public static int br7=0;
+    public static void setBr1(int br1){
+        When.br1=br1;
+    }
+    public static void setBr7(int br7){
+        When.br7=br7;
+    }
+    public static int getBr1(){
+        return br1;
+    }
+    public static int getBr7(){
+        return br7;
+    }
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         String a = (String)jComboBox1.getSelectedItem();
