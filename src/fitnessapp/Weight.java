@@ -4,6 +4,8 @@
  */
 package fitnessapp;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author sofia
@@ -125,10 +127,21 @@ public class Weight extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        new BMI().setKg(Double.parseDouble(jTextField1.getText()));
-        Diet d = new Diet();
-        d.show();
-        dispose();
+        if(jTextField1.getText().equals(""))
+        {
+            JOptionPane.showMessageDialog(null, "Please enter something.");
+        }
+        else if(Double.parseDouble(jTextField1.getText()) >=35 && Double.parseDouble(jTextField1.getText()) <= 400)
+        {
+            new BMI().setKg(Double.parseDouble(jTextField1.getText()));
+            Diet d = new Diet();
+            d.show();
+            dispose();
+        }
+        else
+        {
+            JOptionPane.showMessageDialog(null, "Let's be real.");
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

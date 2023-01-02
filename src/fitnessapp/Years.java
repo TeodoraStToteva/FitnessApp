@@ -4,6 +4,8 @@
  */
 package fitnessapp;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author 20122019
@@ -119,10 +121,20 @@ public class Years extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        
-        Height h = new Height();
-        h.show();
-        dispose();
+        if(jTextField1.getText().equals(""))
+        {
+            JOptionPane.showMessageDialog(null, "Please enter something.");
+        }
+        else if(Integer.parseInt(jTextField1.getText()) >= 12)
+        {
+            Height h = new Height();
+            h.show();
+            dispose();
+        }
+        else
+        {
+            JOptionPane.showMessageDialog(null, "You are too young to use this app!");
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

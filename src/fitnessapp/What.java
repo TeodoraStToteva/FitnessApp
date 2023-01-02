@@ -5,6 +5,8 @@
 
 package fitnessapp;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author 20122019
@@ -152,10 +154,16 @@ public static int answer;
     }
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-       
-        When w = new When();
-        w.show();
-        dispose();
+        if(jRadioButton1.isSelected() || jRadioButton2.isSelected() || jRadioButton3.isSelected()) 
+        {
+            When w = new When();
+            w.show();
+            dispose();
+        }
+        else
+        {
+            JOptionPane.showMessageDialog(null, "Please choose something.");
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
 

@@ -4,6 +4,8 @@
  */
 package fitnessapp;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author 20122019
@@ -143,9 +145,16 @@ public class Calories extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        What w = new What();
-        w.show();
-        dispose();
+        if(jTextField1.getText().equals(""))
+        {
+            JOptionPane.showMessageDialog(null, "Please enter something.");
+        }
+        else
+        {
+            What w = new What();
+            w.show();
+            dispose();
+        }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
