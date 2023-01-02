@@ -135,12 +135,10 @@ public class Height extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here: 
-        String h1 = jTextField1.getText();
-        new Weight(h1).setVisible(true);
-        setVisible(false);
-        //Weight w = new Weight();
-        //w.show();
-        //dispose();
+        new BMI().setH(Integer.parseInt(jTextField1.getText()));
+        Weight w = new Weight();
+        w.show();
+        dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
     
     

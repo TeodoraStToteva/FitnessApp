@@ -18,13 +18,6 @@ public class When extends javax.swing.JFrame {
     public When() {
         initComponents();
     }
-    String h9;
-    String w5;
-    public When(String h8, String w){
-        initComponents(); 
-        h9 = h8;
-        w5 = w;
-    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -139,9 +132,7 @@ public class When extends javax.swing.JFrame {
     public int br1=0, br7=0;
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String h10 = h9;
         String a = (String)jComboBox1.getSelectedItem();
-        BMI obj = new BMI();
         if(a.equals("Select one item"))
         {
             JOptionPane.showMessageDialog(null, "Select another item.");
@@ -158,14 +149,9 @@ public class When extends javax.swing.JFrame {
             br7=0;
             if(br1>1)
             {
-                /*MainPage mp = new MainPage();
+                MainPage mp = new MainPage();
                 mp.show();
-                dispose();*/
-                obj.jLabel1.setText(h10);
-                obj.jLabel2.setText(w5);
-                obj.show();
                 dispose();
-                
             }
         }
         else if(a.equals("7"))
@@ -178,23 +164,15 @@ public class When extends javax.swing.JFrame {
             br1=0;
             if(br7>1)
             {
-                /*MainPage mp = new MainPage();
+                MainPage mp = new MainPage();
                 mp.show();
-                dispose();*/
-                obj.jLabel1.setText(h10);
-                obj.jLabel2.setText(w5);
-                obj.show();
                 dispose();
             }
         }
         else
         {
-            /*MainPage mp = new MainPage();
+            MainPage mp = new MainPage();
             mp.show();
-            dispose();*/
-            obj.jLabel1.setText(h10);
-            obj.jLabel2.setText(w5);
-            obj.show();
             dispose();
         }
     }//GEN-LAST:event_jButton1ActionPerformed
