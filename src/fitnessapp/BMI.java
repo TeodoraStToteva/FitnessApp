@@ -20,13 +20,6 @@ public class BMI extends javax.swing.JFrame {
     public BMI() {
         initComponents();
     }
-    /*String h11;
-    public BMI(String h10){
-        initComponents(); 
-        h11 = h10;
-        
-    }*/
-
     private static int h;
     private static double kg;
     public static  int getH()

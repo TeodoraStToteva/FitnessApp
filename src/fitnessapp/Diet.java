@@ -16,13 +16,6 @@ public class Diet extends javax.swing.JFrame {
     public Diet() { 
         initComponents();
     }
-    /*String h4;
-    String w2;
-    public Diet(String h3, String w1){
-        initComponents(); 
-        h4 = h3;
-        w2 = w1;
-    }*/
 
     /**
      * This method is called from within the constructor to initialize the form.

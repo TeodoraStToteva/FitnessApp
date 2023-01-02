@@ -16,13 +16,6 @@ public class Calories extends javax.swing.JFrame {
     public Calories() {
         initComponents();
     }
-    /*String h5;
-    String w3;
-    public Calories(String h4, String w2){
-        initComponents(); 
-        h5 = h4;
-        w3 = w2;
-    }*/
 
     /**
      * This method is called from within the constructor to initialize the form.

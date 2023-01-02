@@ -15,13 +15,7 @@ public class What extends javax.swing.JFrame {
     public What() {
         initComponents();
     }
-    //String h7;
-    //String w4;
-   /* public What(String h, String w){
-        initComponents(); 
-        h7 = h;
-        w4 = w;
-    }*/
+   
 
     /** This method is called from within the constructor to
      * initialize the form.

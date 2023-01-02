@@ -16,11 +16,6 @@ public class Weight extends javax.swing.JFrame {
     public Weight() {
         initComponents();
     }
-   /* String h2;
-    public Weight(String h1){
-        initComponents(); 
-        h2 = h1;
-    }*/
 
     /**
      * This method is called from within the constructor to initialize the form.
