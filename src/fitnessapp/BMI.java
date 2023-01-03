@@ -27,6 +27,10 @@ public class BMI extends javax.swing.JFrame {
     private static double kg;
     private static double m = (double)h/100;
     private static double bmi = (double)(kg/(m*m));
+    public static double getBmi() 
+    {
+        return bmi;
+    }
     public static  int getH()
     {
         return h;
@@ -102,14 +106,14 @@ public class BMI extends javax.swing.JFrame {
                         .addGap(215, 215, 215)
                         .addComponent(jButton1))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel3))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(147, 147, 147)
                         .addComponent(jLabel2)
                         .addGap(120, 120, 120)
-                        .addComponent(jLabel4)))
-                .addContainerGap(101, Short.MAX_VALUE))
+                        .addComponent(jLabel4))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addComponent(jLabel3)))
+                .addContainerGap(103, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -152,10 +156,6 @@ public class BMI extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
     
-    public static String tf1()
-    {
-        return String.format("%.2f", bmi);
-    }
     /**
      * @param args the command line arguments
      */
