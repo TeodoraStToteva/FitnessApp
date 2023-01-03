@@ -150,8 +150,8 @@ public class When extends javax.swing.JFrame {
             br7=0;
             if(br1>1)
             {
-                MainPage mp = new MainPage();
-                mp.show();
+                BMI b = new BMI();
+                b.show();
                 dispose();
             }
         }
@@ -165,15 +165,15 @@ public class When extends javax.swing.JFrame {
             br1=0;
             if(br7>1)
             {
-                MainPage mp = new MainPage();
-                mp.show();
+                BMI b = new BMI();
+                b.show();
                 dispose();
             }
         }
         else
         {
-            MainPage mp = new MainPage();
-            mp.show();
+            BMI b = new BMI();
+            b.show();
             dispose();
         }
     }//GEN-LAST:event_jButton1ActionPerformed
