@@ -172,7 +172,7 @@ public static int answer;
     
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-       if(answer==1){
+       /*if(answer==1){
         Calories d=new Calories();
         d.show();
         dispose();
@@ -180,9 +180,12 @@ public static int answer;
        else if(answer==0){
          Diet d = new Diet();
         d.show();
-        dispose(); 
+        dispose(); }*/
+       Weight w = new Weight();
+       w.show();
+       dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
-    }
+    
     /**
      * @param args the command line arguments
      */
