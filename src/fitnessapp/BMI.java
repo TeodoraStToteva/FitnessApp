@@ -22,14 +22,29 @@ public class BMI extends javax.swing.JFrame {
 
     public BMI() {
         initComponents();
+        bmiset();
+        Label();
     }
     private static int h;
     private static double kg;
-    private static double m = (double)h/100;
-    private static double bmi = (double)(kg/(m*m));
+    private static double m;
+    private static double bmi;
+    private static String bmit; //bmi tekst
     public static double getBmi() 
     {
         return bmi;
+    }
+    public static void setBmi(double bmi) 
+    {
+        BMI.bmi = bmi;
+    }
+    public static String getBmit()
+    {
+        return bmit;
+    }
+    public static void setBmit(String bmit) 
+    {
+        BMI.bmit = bmit;
     }
     public static  int getH()
     {
@@ -47,7 +62,45 @@ public class BMI extends javax.swing.JFrame {
     {
         BMI.kg = kg;
     }
-
+    public static double getM() 
+    {
+        return m;
+    }
+    public static void setM(double m)
+    {
+        BMI.m = m;
+    }
+    public static void mset()
+    {
+        setM(getH()/100);
+    }
+    public static void bmiset()
+    {
+        setBmi(getKg()/(m*m));
+    }
+    public static void bmitekst()
+    {
+        
+        if(getBmi()>=18.5 && getBmi()<=24.9)
+        {
+            setBmit("Normal");
+        }
+        else if(getBmi()<18.5)
+        {
+            setBmit("Underweight");
+        }
+        else
+        {
+            setBmit("Overweight");
+        }
+    }
+    public void Label()
+    {
+        jLabel2.setText(getBmi() + " ");
+        jLabel4.setText(getBmit());
+        System.out.println(getBmi());
+        System.out.println(getBmit());
+    }
     
 
     /**
@@ -87,11 +140,9 @@ public class BMI extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 30)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(4, 4, 101));
-        jLabel2.setText("dff");
 
         jLabel4.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 30)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(4, 4, 101));
-        jLabel4.setText("jLabel4");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
