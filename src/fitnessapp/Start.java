@@ -36,7 +36,6 @@ public class Start extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(153, 153, 255));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fitnessapp/BetterMe.jpg"))); // NOI18N
-        jLabel1.setText("Logo");
 
         jButton2.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 48)); // NOI18N
         jButton2.setForeground(new java.awt.Color(4, 4, 101));
