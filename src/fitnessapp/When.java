@@ -150,6 +150,7 @@ public class When extends javax.swing.JFrame {
             br7=0;
             if(br1>1)
             {
+                new MainPage().setN(Integer.parseInt(a));
                 BMI b = new BMI();
                 b.show();
                 dispose();
@@ -165,6 +166,7 @@ public class When extends javax.swing.JFrame {
             br1=0;
             if(br7>1)
             {
+                new MainPage().setN(Integer.parseInt(a));
                 BMI b = new BMI();
                 b.show();
                 dispose();
@@ -172,6 +174,7 @@ public class When extends javax.swing.JFrame {
         }
         else
         {
+            new MainPage().setN(Integer.parseInt(a));
             BMI b = new BMI();
             b.show();
             dispose();
