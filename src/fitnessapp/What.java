@@ -156,21 +156,21 @@ public static int answer;
         // TODO add your handling code here:
         if(jRadioButton1.isSelected()) 
         {
-            new Exercise().setCel(jRadioButton1.getText());
+            /*new */Exercise/*()*/.setCel("Stay fit");
             When w = new When();
             w.show();
             dispose();
         }
         else if(jRadioButton2.isSelected())
         {
-            new Exercise().setCel(jRadioButton2.getText());
+            /*new*/ Exercise/*()*/.setCel(jRadioButton2.getText());
             When w = new When();
             w.show();
             dispose();
         }
         else if(jRadioButton3.isSelected())
         {
-            new Exercise().setCel(jRadioButton3.getText());
+            /*new*/ Exercise/*()*/.setCel(jRadioButton3.getText());
             When w = new When();
             w.show();
             dispose();

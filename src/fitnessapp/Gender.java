@@ -113,14 +113,14 @@ public class Gender extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(jRadioButton1.isSelected()) 
         {
-            new Exercise().setPol(jRadioButton1.getText());
+            /*new*/Exercise/*()*/.setPol("Female");
             Years y = new Years();
             y.show();
             dispose();
         }
         else if(jRadioButton2.isSelected())
         {
-            new Exercise().setPol(jRadioButton2.getText());
+            /*new*/Exercise/*()*/.setPol("Male");
             Years y = new Years();
             y.show();
             dispose();

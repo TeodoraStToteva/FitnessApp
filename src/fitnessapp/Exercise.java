@@ -15,7 +15,7 @@ public class Exercise extends javax.swing.JFrame {
      */
     public Exercise() {
         initComponents();
-        //Area();
+        Area();
     }
     private static String day;
     private static String pol;
@@ -50,6 +50,7 @@ public class Exercise extends javax.swing.JFrame {
     
     public void Area()
     {
+        //Exercise obj = new Exercise();
         if(getPol().equals("Female"))
         {
             if(getCel().equals("Stay fit"))
