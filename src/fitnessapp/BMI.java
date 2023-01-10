@@ -27,25 +27,7 @@ public class BMI extends javax.swing.JFrame {
     }
     private static int h;
     private static double kg;
-    //private static double m = (double)(getH()/100);
-    //private static double bmi;
-    //private static String bmit; //bmi tekst
-    /*public static double getBmi() 
-    {
-        return bmi;
-    }
-    public static void setBmi(double bmi) 
-    {
-        BMI.bmi = bmi;
-    }
-    public static String getBmit()
-    {
-        return bmit;
-    }
-    public static void setBmit(String bmit) 
-    {
-        BMI.bmit = bmit;
-    }*/
+    
     public static  int getH()
     {
         return h;
@@ -62,38 +44,7 @@ public class BMI extends javax.swing.JFrame {
     {
         BMI.kg = kg;
     }
-    /*public static double getM() 
-    {
-        return m;
-    }
-    public static void setM(double m)
-    {
-        BMI.m = m;
-    }
-    public static void mset()
-    {
-        setM(getH()/100);
-    }
-    public static void bmiset()
-    {
-        setBmi(getKg()/(m*m));
-    }
-    public static void bmitekst()
-    {
-        
-        if(getBmi()>=18.5 && getBmi()<=24.9)
-        {
-            setBmit("Normal");
-        }
-        else if(getBmi()<18.5)
-        {
-            setBmit("Underweight");
-        }
-        else
-        {
-            setBmit("Overweight");
-        }
-    }*/
+    
     public void Label()
     {
         double bmi;
@@ -113,8 +64,6 @@ public class BMI extends javax.swing.JFrame {
         }
         jLabel2.setText(String.format("%.2f",bmi));
         jLabel4.setText(bmit);
-        //System.out.println(getBmi());
-        //System.out.println(getBmit());
     }
     
 

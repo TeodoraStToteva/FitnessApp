@@ -4,6 +4,7 @@
  */
 package fitnessapp;
 
+import java.util.InputMismatchException;
 import javax.swing.JOptionPane;
 
 
@@ -137,20 +138,25 @@ public class Height extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here: 
-        if(jTextField1.getText().equals(""))
+        String a = jTextField1.getText();
+        try
         {
-            JOptionPane.showMessageDialog(null, "Please enter something.");
+            int x = Integer.parseInt(a);
+            if(Integer.parseInt(jTextField1.getText()) >= 54 && Integer.parseInt(jTextField1.getText()) <= 272)
+            {
+                new BMI().setH(Integer.parseInt(jTextField1.getText()));
+                Weight w = new Weight();
+                w.show();
+                dispose();
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(null, "Let's be real.");
+            }
         }
-        else if(Integer.parseInt(jTextField1.getText()) >= 54 && Integer.parseInt(jTextField1.getText()) <= 272)
+        catch(NumberFormatException e)
         {
-            new BMI().setH(Integer.parseInt(jTextField1.getText()));
-            Weight w = new Weight();
-            w.show();
-            dispose();
-        }
-        else
-        {
-            JOptionPane.showMessageDialog(null, "Let's be real.");
+            JOptionPane.showMessageDialog(null, "Please enter an integer.");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
     

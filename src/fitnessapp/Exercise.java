@@ -15,16 +15,236 @@ public class Exercise extends javax.swing.JFrame {
      */
     public Exercise() {
         initComponents();
+        //Area();
     }
     private static String day;
+    private static String pol;
+    private static String cel;
 
-    public static String getDay() {
+    public static String getDay() 
+    {
         return day;
     }
-
-    public static void setDay(String day) {
+    public static void setDay(String day) 
+    {
         Exercise.day = day;
     }
+    public static String getPol() 
+    {
+        return pol;
+    }
+    public static void setPol(String pol) 
+    {
+        Exercise.pol = pol;
+    }
+    public static String getCel() 
+    {
+        return cel;
+    }
+    public static void setCel(String cel)
+    {
+        Exercise.cel = cel;
+    }
+    
+    
+    
+    public void Area()
+    {
+        if(getPol().equals("Female"))
+        {
+            if(getCel().equals("Stay fit"))
+            {
+                if(getDay().equals("Monday"))
+                {
+                    jTextArea1.setText("Jumping jacks x40\n"
+                    + "Push-ups x8\n");
+                }
+                else if(getDay().equals("Tuesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Wednesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Thursday"))
+                {
+                    
+                }
+                else if(getDay().equals("Friday"))
+                {
+                    
+                }
+                else if(getDay().equals("Saturday"))
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+            }
+            else if(getCel().equals("Lose weight"))
+            {
+                if(getDay().equals("Monday"))
+                {
+                    
+                }
+                else if(getDay().equals("Tuesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Wednesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Thursday"))
+                {
+                    
+                }
+                else if(getDay().equals("Friday"))
+                {
+                    
+                }
+                else if(getDay().equals("Saturday"))
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+            }
+            else
+            {
+                if(getDay().equals("Monday"))
+                {
+                    
+                }
+                else if(getDay().equals("Tuesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Wednesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Thursday"))
+                {
+                    
+                }
+                else if(getDay().equals("Friday"))
+                {
+                    
+                }
+                else if(getDay().equals("Saturday"))
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+            }
+        }
+        else //muje
+        {
+            if(getCel().equals("Stay fit"))
+            {
+                if(getDay().equals("Monday"))
+                {
+                    
+                }
+                else if(getDay().equals("Tuesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Wednesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Thursday"))
+                {
+                    
+                }
+                else if(getDay().equals("Friday"))
+                {
+                    
+                }
+                else if(getDay().equals("Saturday"))
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+            }
+            else if(getCel().equals("Lose weight"))
+            {
+                if(getDay().equals("Monday"))
+                {
+                    
+                }
+                else if(getDay().equals("Tuesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Wednesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Thursday"))
+                {
+                    
+                }
+                else if(getDay().equals("Friday"))
+                {
+                    
+                }
+                else if(getDay().equals("Saturday"))
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+            }
+            else
+            {
+                if(getDay().equals("Monday"))
+                {
+                    
+                }
+                else if(getDay().equals("Tuesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Wednesday"))
+                {
+                    
+                }
+                else if(getDay().equals("Thursday"))
+                {
+                    
+                }
+                else if(getDay().equals("Friday"))
+                {
+                    
+                }
+                else if(getDay().equals("Saturday"))
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+            }
+        }
+    }
+    
     
     /**
      * This method is called from within the constructor to initialize the form.
@@ -37,6 +257,8 @@ public class Exercise extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -49,21 +271,32 @@ public class Exercise extends javax.swing.JFrame {
             }
         });
 
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane1.setViewportView(jTextArea1);
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(165, 165, 165)
-                .addComponent(jButton1)
-                .addContainerGap(301, Short.MAX_VALUE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(217, 217, 217)
+                        .addComponent(jButton1))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(35, 35, 35)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 468, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(40, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(171, 171, 171)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(107, 107, 107)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
                 .addComponent(jButton1)
-                .addContainerGap(255, Short.MAX_VALUE))
+                .addGap(74, 74, 74))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -123,5 +356,7 @@ public class Exercise extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables
 }

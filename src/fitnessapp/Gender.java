@@ -111,8 +111,16 @@ public class Gender extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        if(jRadioButton1.isSelected() || jRadioButton2.isSelected()) 
+        if(jRadioButton1.isSelected()) 
         {
+            new Exercise().setPol(jRadioButton1.getText());
+            Years y = new Years();
+            y.show();
+            dispose();
+        }
+        else if(jRadioButton2.isSelected())
+        {
+            new Exercise().setPol(jRadioButton2.getText());
             Years y = new Years();
             y.show();
             dispose();
