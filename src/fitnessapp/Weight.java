@@ -133,7 +133,7 @@ public class Weight extends javax.swing.JFrame {
         }
         else if(Double.parseDouble(jTextField1.getText()) >=35 && Double.parseDouble(jTextField1.getText()) <= 400)
         {
-            new BMI().setKg(Double.parseDouble(jTextField1.getText()));
+            /*new*/ BMI/*()*/.setKg(Double.parseDouble(jTextField1.getText()));
             What w = new What();
             w.show();
             dispose();

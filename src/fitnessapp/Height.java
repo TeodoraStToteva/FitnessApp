@@ -144,7 +144,7 @@ public class Height extends javax.swing.JFrame {
             int x = Integer.parseInt(a);
             if(Integer.parseInt(jTextField1.getText()) >= 54 && Integer.parseInt(jTextField1.getText()) <= 272)
             {
-                new BMI().setH(Integer.parseInt(jTextField1.getText()));
+                /*new*/BMI/*()*/.setH(Integer.parseInt(jTextField1.getText()));
                 Weight w = new Weight();
                 w.show();
                 dispose();
