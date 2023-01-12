@@ -17,6 +17,7 @@ public class MainPage extends javax.swing.JFrame {
      */
     public MainPage() {
         initComponents();
+        setLocationRelativeTo(null);
     }
     private static int n;//number of days
 

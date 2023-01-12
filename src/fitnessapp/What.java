@@ -16,6 +16,7 @@ public class What extends javax.swing.JFrame {
     /** Creates new form Gender */
     public What() {
         initComponents();
+        setLocationRelativeTo(null);
     }
    
 

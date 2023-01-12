@@ -17,6 +17,7 @@ public class Years extends javax.swing.JFrame {
      */
     public Years() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

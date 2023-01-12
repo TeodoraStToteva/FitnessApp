@@ -22,6 +22,7 @@ public class BMI extends javax.swing.JFrame {
 
     public BMI() {
         initComponents();
+        setLocationRelativeTo(null);
         //bmiset();
         Label();
     }

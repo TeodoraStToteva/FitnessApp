@@ -17,6 +17,7 @@ public class Weight extends javax.swing.JFrame {
      */
     public Weight() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

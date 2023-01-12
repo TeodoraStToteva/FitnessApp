@@ -20,6 +20,7 @@ public class Height extends javax.swing.JFrame {
      */
     public Height() {//konst.
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

@@ -15,6 +15,7 @@ public class Exercise extends javax.swing.JFrame {
      */
     public Exercise() {
         initComponents();
+        setLocationRelativeTo(null);
         Area();
     }
     private static String day;

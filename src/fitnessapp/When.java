@@ -17,6 +17,7 @@ public class When extends javax.swing.JFrame {
      */
     public When() {
         initComponents();
+        setLocationRelativeTo(null);
     }
     /**
      * This method is called from within the constructor to initialize the form.
