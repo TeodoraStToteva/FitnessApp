@@ -36,6 +36,7 @@ public class When extends javax.swing.JFrame {
         jComboBox1 = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
@@ -151,7 +152,7 @@ public class When extends javax.swing.JFrame {
             br7=0;
             if(br1>1)
             {
-                /*new*/ MainPage/*()*/.setN(Integer.parseInt(a));
+                MainPage.setN(Integer.parseInt(a));
                 BMI b = new BMI();
                 b.show();
                 dispose();
@@ -167,7 +168,7 @@ public class When extends javax.swing.JFrame {
             br1=0;
             if(br7>1)
             {
-                /*new*/ MainPage/*()*/.setN(Integer.parseInt(a));
+                MainPage.setN(Integer.parseInt(a));
                 BMI b = new BMI();
                 b.show();
                 dispose();
@@ -175,7 +176,7 @@ public class When extends javax.swing.JFrame {
         }
         else
         {
-            /*new*/ MainPage/*()*/.setN(Integer.parseInt(a));
+            MainPage.setN(Integer.parseInt(a));
             BMI b = new BMI();
             b.show();
             dispose();
@@ -193,41 +194,7 @@ public class When extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(When.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(When.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(When.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(When.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new When().setVisible(true);
-            }
-        });
-    }
+   
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;

@@ -40,6 +40,7 @@ public class What extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(543, 451));
@@ -157,21 +158,21 @@ public static int answer;
         // TODO add your handling code here:
         if(jRadioButton1.isSelected()) 
         {
-            /*new */Exercise/*()*/.setCel("Stay fit");
+            Exercise.setCel("Stay fit");
             When w = new When();
             w.show();
             dispose();
         }
         else if(jRadioButton2.isSelected())
         {
-            /*new*/ Exercise/*()*/.setCel(jRadioButton2.getText());
+            Exercise.setCel(jRadioButton2.getText());
             When w = new When();
             w.show();
             dispose();
         }
         else if(jRadioButton3.isSelected())
         {
-            /*new*/ Exercise/*()*/.setCel(jRadioButton3.getText());
+            Exercise.setCel(jRadioButton3.getText());
             When w = new When();
             w.show();
             dispose();
@@ -188,55 +189,12 @@ public static int answer;
     
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-       /*if(answer==1){
-        Calories d=new Calories();
-        d.show();
-        dispose();
-       }
-       else if(answer==0){
-         Diet d = new Diet();
-        d.show();
-        dispose(); }*/
        Weight w = new Weight();
        w.show();
        dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
     
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(What.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(What.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(What.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(What.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new What().setVisible(true);
-            }
-        });
-    }
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup Program;

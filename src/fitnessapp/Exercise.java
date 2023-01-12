@@ -51,7 +51,6 @@ public class Exercise extends javax.swing.JFrame {
     
     public void Area()
     {
-        //Exercise obj = new Exercise();
         if(getPol().equals("Female"))
         {
             //iveto
@@ -73,7 +72,7 @@ public class Exercise extends javax.swing.JFrame {
                     jLabel1.setText("1.High stepping x40");
                     jLabel2.setText("2.Push-ups x8");
                     jLabel3.setText("3.Burpee x12");
-                    jLabel4.setText("4.Dumbbell rows  x10 each arm");
+                    jLabel4.setText("4.Dumbbell rows  x10 (x2)");
                     jLabel5.setText("5.Lunge x15 each leg");
                     jLabel6.setText("6.Squat – 20");
                     jLabel7.setText("7.Plank x45s");
@@ -87,7 +86,7 @@ public class Exercise extends javax.swing.JFrame {
                     jLabel4.setText("4.Side plank x15s each side");
                     jLabel5.setText("5.Crunches x20 ");
                     jLabel6.setText("6.Flutter kicks x15s");
-                    jLabel7.setText("7.Walking lunges x10 each leg");
+                    jLabel7.setText("7.Walking lunges x10 (x2)");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Thursday"))
@@ -97,7 +96,7 @@ public class Exercise extends javax.swing.JFrame {
                     jLabel3.setText("3.Shoulder tap x12");
                     jLabel4.setText("4.Cross knee plank x18");
                     jLabel5.setText("5.Crunches x20");
-                    jLabel6.setText("6.One leg squats x12 each leg");
+                    jLabel6.setText("6.One leg squats x12 (x2)");
                     jLabel7.setText("7.Side lunges x14");
                     jLabel8.setText("8.Stretch");
                 }
@@ -128,7 +127,7 @@ public class Exercise extends javax.swing.JFrame {
                     jLabel1.setText("1.Jumping jacks x40");
                     jLabel2.setText("2.Push-ups x10");
                     jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Walking lunges x15 each leg");
+                    jLabel4.setText("4.Walking lunges x15 (x2)");
                     jLabel5.setText("5.Side lunges x14");
                     jLabel6.setText("6.Russian twist x20");
                     jLabel7.setText("7.Plank x30s");
@@ -164,7 +163,7 @@ public class Exercise extends javax.swing.JFrame {
                 {
                     jLabel1.setText("1.Warm up");
                     jLabel2.setText("2.Push-ups x15");
-                    jLabel3.setText("3.Shoulder taps x15 each arm");
+                    jLabel3.setText("3.Shoulder taps x15 (x2)");
                     jLabel4.setText("4.Triceps dips x10");
                     jLabel5.setText("5.Punches x24 each arm");
                     jLabel6.setText("6.Jumping jacks x30");
@@ -197,7 +196,7 @@ public class Exercise extends javax.swing.JFrame {
                 {
                     jLabel1.setText("1.Warm up");
                     jLabel2.setText("2.Push-ups x15");
-                    jLabel3.setText("3.Shoulder taps x15 each arm");
+                    jLabel3.setText("3.Shoulder taps x15 (x2)");
                     jLabel4.setText("4.Triceps dips x10");
                     jLabel5.setText("5.Punches x24 each arm");
                     jLabel6.setText("6.Jumping jacks x30");
@@ -216,99 +215,100 @@ public class Exercise extends javax.swing.JFrame {
                     jLabel8.setText("8.Stretch");
                 }
             }
+            //sofi
             else
-                //sofi
             {
                 if(getDay().equals("Monday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
+                    jLabel1.setText("1.Jumping jacks x25");
+                    jLabel2.setText("2.Incline push-ups x10");
+                    jLabel3.setText("3.Knee push-ups x6");
                     jLabel4.setText("4.Split squat x10 each leg");
                     jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel6.setText("6.Triceps dip x12");
+                    jLabel7.setText("7.Plank x30s");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Tuesday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.High stepping x35");
+                    jLabel2.setText("2.Knee push-ups x8");
+                    jLabel3.setText("3.Burpee x12");
+                    jLabel4.setText("4.Plank-up x6");
+                    jLabel5.setText("5.Inchworm x6");
+                    jLabel6.setText("6.Lunge x15 each leg");
+                    jLabel7.setText("7.Squat x12");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Wednesday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.High stepping x40");
+                    jLabel2.setText("2.Plank tap x15");
+                    jLabel3.setText("3.Side plank 15s each side");
+                    jLabel4.setText("4.Glute bridge x14");
+                    jLabel5.setText("5.Flutter kicks 15s");
+                    jLabel6.setText("6.Walking squats 30s");
+                    jLabel7.setText("7.Curtsy lunge x15 each leg");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Thursday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.Jumping jacks x30");
+                    jLabel2.setText("2.Triceps dip x15");
+                    jLabel3.setText("3.Inchworms x6");
+                    jLabel4.setText("4.Cross knee plank x18");
+                    jLabel5.setText("5.Heel touch x24");
+                    jLabel6.setText("6.Squats x15");
+                    jLabel7.setText("7.Side lunges x14");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Friday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.Jumping jacks x30");
+                    jLabel2.setText("2.Arm scissors 30s");
+                    jLabel3.setText("3.Knee push-ups x10");
+                    jLabel4.setText("4.Split squat x12 each leg");
+                    jLabel5.setText("5.Glute bridge x14");
+                    jLabel6.setText("6.Lunge x15 each leg");
+                    jLabel7.setText("7.Squats x20");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Saturday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.High stepping x40");
+                    jLabel2.setText("2.Knee push-ups x8");
+                    jLabel3.setText("3.Triceps dip x12");
+                    jLabel4.setText("4.Inchworm x6");
+                    jLabel5.setText("5.Side plank 15s each side ");
+                    jLabel6.setText("6.Split squat x10 each leg ");
+                    jLabel7.setText("7.Lunge x15 each leg ");
                     jLabel8.setText("8.Stretch");
                 }
                 else
                 {
                     jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel2.setText("2.Arm scissors 30s");
+                    jLabel3.setText("3.Plank tap x16");
+                    jLabel4.setText("4.Cross knee plank x18");
+                    jLabel5.setText("5.Bounce lunge x15 each leg");
+                    jLabel6.setText("6.Squat x12");
+                    jLabel7.setText("7.Side lunges x14");
                     jLabel8.setText("8.Stretch");
                 }
             }
         }
-        else //muje
+        //muje
+        else 
         {
+            //iveto
             if(getCel().equals("Stay fit"))
-                //iveto
             {
                 if(getDay().equals("Monday"))
                 {
                     jLabel1.setText("1.Jumping jacks x50");
                     jLabel2.setText("2.Push-ups x12");
                     jLabel3.setText("3.Burpees x40");
-                    jLabel4.setText("4.Reverse lunge x15 per side");
+                    jLabel4.setText("4.Reverse lunge x15 (x2)");
                     jLabel5.setText("5.Sit-up x20");
                     jLabel6.setText("6.Punches x40 each arm");
                     jLabel7.setText("7.Triceps dip x20");
@@ -319,7 +319,7 @@ public class Exercise extends javax.swing.JFrame {
                     jLabel1.setText("1.High stepping x40");
                     jLabel2.setText("2.Wide hands push-up x12");
                     jLabel3.setText("3.Burpees x30");
-                    jLabel4.setText("4.Soulder taps x30 each arm");
+                    jLabel4.setText("4.Soulder taps x30 (x2)");
                     jLabel5.setText("5.Walking lunge x12 each leg");
                     jLabel6.setText("6.Squat jump x12");
                     jLabel7.setText("7.Plank x60s");
@@ -332,7 +332,7 @@ public class Exercise extends javax.swing.JFrame {
                     jLabel3.setText("3.Squat x30");
                     jLabel4.setText("4.Split squat x16 each leg");
                     jLabel5.setText("5.Triceps dip x25");
-                    jLabel6.setText("6.Single leg bridge x12 each leg");
+                    jLabel6.setText("6.Single leg bridge x12 (x2)");
                     jLabel7.setText("7.Plank x60s");
                     jLabel8.setText("8.Stretch");
                 }
@@ -381,13 +381,14 @@ public class Exercise extends javax.swing.JFrame {
                     jLabel8.setText("8.Stretch");
                 }
             }
+            //tedi
             else if(getCel().equals("Lose weight"))
             {
                 if(getDay().equals("Monday"))
                 {
                     jLabel1.setText("1.Warm up");
                     jLabel2.setText("2.Push-ups x30");
-                    jLabel3.setText("3.Soulder taps x30 each arm");
+                    jLabel3.setText("3.Shoulder taps x30 (x2)");
                     jLabel4.setText("4.Triceps dips x30");
                     jLabel5.setText("5.Punches x40 each arm");
                     jLabel6.setText("6.Jumping jacks x50");
@@ -420,7 +421,7 @@ public class Exercise extends javax.swing.JFrame {
                 {
                     jLabel1.setText("1.Warm up");
                     jLabel2.setText("2.Push-ups x30");
-                    jLabel3.setText("3.Soulder taps x30 each arm");
+                    jLabel3.setText("3.Shoulder taps x30 (x2)");
                     jLabel4.setText("4.Triceps dips x30");
                     jLabel5.setText("5.Punches x40 each arm");
                     jLabel6.setText("6.Jumping jacks x50");
@@ -454,7 +455,7 @@ public class Exercise extends javax.swing.JFrame {
                 {
                     jLabel1.setText("1.Warm up");
                     jLabel2.setText("2.Push-ups x30");
-                    jLabel3.setText("3.Soulder taps x30 each arm");
+                    jLabel3.setText("3.Shoulder taps x30 (x2)");
                     jLabel4.setText("4.Triceps dips x30");
                     jLabel5.setText("5.Punches x40 each arm");
                     jLabel6.setText("6.Jumping jacks x50");
@@ -462,84 +463,84 @@ public class Exercise extends javax.swing.JFrame {
                     jLabel8.setText("8.Stretch");
                 }
             }
+            //sofi
             else
-                //sofi
             {
                 if(getDay().equals("Monday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.Jumping jacks x50");
+                    jLabel2.setText("2.Diamond push-up x10");
+                    jLabel3.setText("3.Triceps dip x20");
+                    jLabel4.setText("4.Oblique crunches x30");
+                    jLabel5.setText("5.Sit-ups x20");
+                    jLabel6.setText("6.Reverse lunge x24");
+                    jLabel7.setText("7.Glute bridge x10 each side");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Tuesday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.High stepping x40");
+                    jLabel2.setText("2.Wide hands push-up x12");
+                    jLabel3.setText("3.Plank tap x20");
+                    jLabel4.setText("4.Superman x20");
+                    jLabel5.setText("5.Russian twist x30");
+                    jLabel6.setText("6.Walking lunge x12 each leg");
+                    jLabel7.setText("7.Squat jump x12");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Wednesday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.High stepping x40");
+                    jLabel2.setText("2.High-to-low plank x20");
+                    jLabel3.setText("3.Triceps dip x25");
+                    jLabel4.setText("4.Bird-dog x20");
+                    jLabel5.setText("5.Russian twist x30");
+                    jLabel6.setText("6.Single leg bridge x24");
+                    jLabel7.setText("7.Squat pulses x16");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Thursday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.Jumping jacks x50");
+                    jLabel2.setText("2.Diamond push-ups x12");
+                    jLabel3.setText("3.Side plank 20s each side");
+                    jLabel4.setText("4.Floor crunch x20");
+                    jLabel5.setText("5.Abdominal air bike x20");
+                    jLabel6.setText("6.Lunge jumps x14");
+                    jLabel7.setText("7.Split squat x12 each side");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Friday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.Jumping jacks x50");
+                    jLabel2.setText("2.High-to-low plank x20");
+                    jLabel3.setText("3.Plank tap x22");
+                    jLabel4.setText("4.Sit-ups x20");
+                    jLabel5.setText("5.Russian twist x30");
+                    jLabel6.setText("6.Walking lunge x24");
+                    jLabel7.setText("7.Glute bridge x10 each side");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Saturday"))
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.High stepping x40");
+                    jLabel2.setText("2.Wide hands push-up x12");
+                    jLabel3.setText("3.Triceps dip x25");
+                    jLabel4.setText("4.Abdominal air bike x20");
+                    jLabel5.setText("5.Superman x20");
+                    jLabel6.setText("6.Lunge jumps x14");
+                    jLabel7.setText("7.Squat pulses x16");
                     jLabel8.setText("8.Stretch");
                 }
                 else
                 {
-                    jLabel1.setText("1.Jumping jacks x40");
-                    jLabel2.setText("2.Push-ups x8");
-                    jLabel3.setText("3.Squat x20");
-                    jLabel4.setText("4.Split squat x10 each leg");
-                    jLabel5.setText("5.Bounce lunge x12 each leg");
-                    jLabel6.setText("6.Russian twist x20");
-                    jLabel7.setText("7.Plank x45s");
+                    jLabel1.setText("1.Jumping jacks x50");
+                    jLabel2.setText("2.Wide hands push-up x12");
+                    jLabel3.setText("3.Arm scissors 30s");
+                    jLabel4.setText("4.Floor crunch x20");
+                    jLabel5.setText("5.Bird-dog x20");
+                    jLabel6.setText("6.Split squat x12 each side");
+                    jLabel7.setText("7.Reverse lunge x12 (x2)");
                     jLabel8.setText("8.Stretch");
                 }
             }
@@ -569,6 +570,7 @@ public class Exercise extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(543, 451));
@@ -710,40 +712,7 @@ public class Exercise extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Exercise.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Exercise.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Exercise.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Exercise.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Exercise().setVisible(true);
-            }
-        });
-    }
+  
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;

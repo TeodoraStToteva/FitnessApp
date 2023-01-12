@@ -32,6 +32,7 @@ public class Start extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
         jPanel1.setForeground(new java.awt.Color(153, 153, 255));
@@ -90,7 +91,6 @@ public class Start extends javax.swing.JFrame {
         Gender g = new Gender();
         g.show();
         dispose();
-        //hello!
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
