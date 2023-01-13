@@ -179,7 +179,7 @@ public static int answer;
         }
         else
         {
-            JOptionPane.showMessageDialog(null, "Please choose something.");
+            JOptionPane.showMessageDialog(null, "Please choose something.", " ", JOptionPane.WARNING_MESSAGE);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 

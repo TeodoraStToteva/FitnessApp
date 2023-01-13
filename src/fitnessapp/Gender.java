@@ -129,7 +129,7 @@ public class Gender extends javax.swing.JFrame {
         }
         else
         {
-            JOptionPane.showMessageDialog(null, "Please choose something.");
+            JOptionPane.showMessageDialog(null, "Please choose something.", " ", JOptionPane.WARNING_MESSAGE);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 

@@ -138,7 +138,7 @@ public class When extends javax.swing.JFrame {
         String a = (String)jComboBox1.getSelectedItem();
         if(a.equals("Select one item"))
         {
-            JOptionPane.showMessageDialog(null, "Select another item.");
+            JOptionPane.showMessageDialog(null, "Select another item.", " ", JOptionPane.INFORMATION_MESSAGE);
             br1=0;
             br7=0;
         }
@@ -146,7 +146,7 @@ public class When extends javax.swing.JFrame {
         {
             if(br1==0)
             {           
-                JOptionPane.showMessageDialog(null, "There won't be visible results after a short period of time.");
+                JOptionPane.showMessageDialog(null, "There won't be visible results after a short period of time.", " ", JOptionPane.INFORMATION_MESSAGE);
             }
             br1++;
             br7=0;
@@ -162,7 +162,7 @@ public class When extends javax.swing.JFrame {
         {
             if(br7==0)
             {
-                JOptionPane.showMessageDialog(null, "This program may be too intense. Continue at your own risk.");
+                JOptionPane.showMessageDialog(null, "This program may be too intense. Continue at your own risk.", " ", JOptionPane.INFORMATION_MESSAGE);
             }
             br7++;
             br1=0;

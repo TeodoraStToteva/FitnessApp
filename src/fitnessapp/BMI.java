@@ -6,7 +6,8 @@ package fitnessapp;
 
 //import javax.swing.JLabel;
 
-import javax.swing.JOptionPane;
+import java.awt.Color;
+
 
 
 
@@ -45,6 +46,13 @@ public class BMI extends javax.swing.JFrame {
         BMI.kg = kg;
     }
     
+    public BMI(int h, double kg)
+    {
+        this.h=h;
+        this.kg=kg;
+    }
+    
+    
     public void Label()
     {
         double bmi;
@@ -53,14 +61,17 @@ public class BMI extends javax.swing.JFrame {
         if(bmi>=18.5 && bmi<=24.9)
         {
             bmit = "Normal";
+            jLabel4.setForeground(Color.green);
         }
         else if(bmi<18.5)
         {
             bmit = "Underweight";
+            jLabel4.setForeground(Color.blue);
         }
         else
         {
             bmit = "Overweight";
+            jLabel4.setForeground(Color.orange);
         }
         jLabel2.setText(String.format("%.2f",bmi));
         jLabel4.setText(bmit);

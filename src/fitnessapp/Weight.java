@@ -142,12 +142,12 @@ public class Weight extends javax.swing.JFrame {
             }
             else
             {
-                JOptionPane.showMessageDialog(null, "Let's be real.");
+                JOptionPane.showMessageDialog(null, "Let's be real.", " ", JOptionPane.INFORMATION_MESSAGE);
             }
         }
         catch(NumberFormatException e)
         {
-            JOptionPane.showMessageDialog(null, "Please enter an number.");
+            JOptionPane.showMessageDialog(null, "Please enter a number.", " ", JOptionPane.WARNING_MESSAGE);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 

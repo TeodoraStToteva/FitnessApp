@@ -135,12 +135,12 @@ public class Years extends javax.swing.JFrame {
             }
             else
             {
-                JOptionPane.showMessageDialog(null, "Let's be real.");
+                JOptionPane.showMessageDialog(null, "Let's be real.", " ", JOptionPane.INFORMATION_MESSAGE);
             }
         }
         catch(NumberFormatException e)
         {
-            JOptionPane.showMessageDialog(null, "Please enter an integer.");
+            JOptionPane.showMessageDialog(null, "Please enter an integer.", " ", JOptionPane.WARNING_MESSAGE);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 

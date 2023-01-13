@@ -4,6 +4,8 @@
  */
 package fitnessapp;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author sofiyald
@@ -47,7 +49,12 @@ public class Exercise extends javax.swing.JFrame {
         Exercise.cel = cel;
     }
     
-    
+    public Exercise(String day, String pol, String cel)
+    {
+        this.day = day;
+        this.pol = pol;
+        this.cel = cel;
+    }
     
     public void Area()
     {
@@ -140,78 +147,78 @@ public class Exercise extends javax.swing.JFrame {
                 if(getDay().equals("Monday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Squats x30");
-                    jLabel3.setText("3.Lunges x30");
-                    jLabel4.setText("4.Fire hydrant x30");
-                    jLabel5.setText("5.Wall sit x30s");
-                    jLabel6.setText("6.Jumping jacks x30");
-                    jLabel7.setText("7.Burpees x30");
+                    jLabel2.setText("2.Squats x10");
+                    jLabel3.setText("3.Lunges x10");
+                    jLabel4.setText("4.Fire hydrant x10");
+                    jLabel5.setText("5.Wall sit x15s");
+                    jLabel6.setText("6.Jumping jacks x10");
+                    jLabel7.setText("7.Burpees x10");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Tuesday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Sit-ups x24");
-                    jLabel3.setText("3.Bicycle x24");
-                    jLabel4.setText("4.Leg raise x24 each leg");
+                    jLabel2.setText("2.Sit-ups x12");
+                    jLabel3.setText("3.Bicycle x12");
+                    jLabel4.setText("4.Leg raise x12 each leg");
                     jLabel5.setText("5.Plank x30s");
-                    jLabel6.setText("6.Jumping jacks x30");
-                    jLabel7.setText("7.Burpees x30");
+                    jLabel6.setText("6.Jumping jacks x10");
+                    jLabel7.setText("7.Burpees x10");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Wednesday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Push-ups x15");
-                    jLabel3.setText("3.Shoulder taps x15 (x2)");
+                    jLabel2.setText("2.Push-ups x7");
+                    jLabel3.setText("3.Shoulder taps x7 (x2)");
                     jLabel4.setText("4.Triceps dips x10");
-                    jLabel5.setText("5.Punches x24 each arm");
-                    jLabel6.setText("6.Jumping jacks x30");
-                    jLabel7.setText("7.Burpees x30");
+                    jLabel5.setText("5.Punches x12 each arm");
+                    jLabel6.setText("6.Jumping jacks x10");
+                    jLabel7.setText("7.Burpees x10");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Thursday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Squats x30");
-                    jLabel3.setText("3.Lunges x30");
-                    jLabel4.setText("4.Fire hydrant x30");
-                    jLabel5.setText("5.Wall sit x30s");
-                    jLabel6.setText("6.Jumping jacks x30");
-                    jLabel7.setText("7.Burpees x30");
+                    jLabel2.setText("2.Squats x10");
+                    jLabel3.setText("3.Lunges x10");
+                    jLabel4.setText("4.Fire hydrant x10");
+                    jLabel5.setText("5.Wall sit x10s");
+                    jLabel6.setText("6.Jumping jacks x10");
+                    jLabel7.setText("7.Burpees x10");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Friday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Sit-ups x24");
-                    jLabel3.setText("3.Bicycle x24");
-                    jLabel4.setText("4.Leg raise x24 each leg");
+                    jLabel2.setText("2.Sit-ups x12");
+                    jLabel3.setText("3.Bicycle x12");
+                    jLabel4.setText("4.Leg raise x12 each leg");
                     jLabel5.setText("5.Plank x30s");
-                    jLabel6.setText("6.Jumping jacks x30");
-                    jLabel7.setText("7.Burpees x30");
+                    jLabel6.setText("6.Jumping jacks x10");
+                    jLabel7.setText("7.Burpees x10");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Saturday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Push-ups x15");
-                    jLabel3.setText("3.Shoulder taps x15 (x2)");
+                    jLabel2.setText("2.Push-ups x7");
+                    jLabel3.setText("3.Shoulder taps x7 (x2)");
                     jLabel4.setText("4.Triceps dips x10");
-                    jLabel5.setText("5.Punches x24 each arm");
-                    jLabel6.setText("6.Jumping jacks x30");
-                    jLabel7.setText("7.Burpees x30");
+                    jLabel5.setText("5.Punches x12 each arm");
+                    jLabel6.setText("6.Jumping jacks x10");
+                    jLabel7.setText("7.Burpees x10");
                     jLabel8.setText("8.Stretch");
                 }
                 else
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Squats x30");
-                    jLabel3.setText("3.Lunges x30");
-                    jLabel4.setText("4.Fire hydrant x30");
-                    jLabel5.setText("5.Wall sit x30s");
-                    jLabel6.setText("6.Jumping jacks x30");
-                    jLabel7.setText("7.Burpees x30");
+                    jLabel2.setText("2.Squats x10");
+                    jLabel3.setText("3.Lunges x10");
+                    jLabel4.setText("4.Fire hydrant x10");
+                    jLabel5.setText("5.Wall sit x15s");
+                    jLabel6.setText("6.Jumping jacks x15");
+                    jLabel7.setText("7.Burpees x10");
                     jLabel8.setText("8.Stretch");
                 }
             }
@@ -387,79 +394,78 @@ public class Exercise extends javax.swing.JFrame {
                 if(getDay().equals("Monday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Push-ups x30");
-                    jLabel3.setText("3.Shoulder taps x30 (x2)");
-                    jLabel4.setText("4.Triceps dips x30");
-                    jLabel5.setText("5.Punches x40 each arm");
-                    jLabel6.setText("6.Jumping jacks x50");
-                    jLabel7.setText("7.Burpees x40");
+                    jLabel2.setText("2.Push-ups x10");
+                    jLabel3.setText("3.Shoulder taps x10 (x2)");
+                    jLabel4.setText("4.Triceps dips x10");
+                    jLabel5.setText("5.Punches x20 each arm");
+                    jLabel6.setText("6.Jumping jacks x25");
+                    jLabel7.setText("7.Burpees x20");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Tuesday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Sit-ups x45");
-                    jLabel3.setText("3.Bicycle x45");
-                    jLabel4.setText("4.Leg raise x45 each leg");
-                    jLabel5.setText("5.Plank x90s");
-                    jLabel6.setText("6.Jumping jacks x50");
-                    jLabel7.setText("7.Burpees x40");
+                    jLabel2.setText("2.Sit-ups x15");
+                    jLabel3.setText("3.Bicycle x15");
+                    jLabel4.setText("4.Leg raise x15 each leg");
+                    jLabel5.setText("5.Plank x30s");
+                    jLabel6.setText("6.Jumping jacks x30");
+                    jLabel7.setText("7.Burpees x20");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Wednesday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Squats x45");
-                    jLabel3.setText("3.Lunges x45");
-                    jLabel4.setText("4.Fire hydrant x45");
-                    jLabel5.setText("5.Wall sit x45s");
-                    jLabel6.setText("6.Jumping jacks x50");
-                    jLabel7.setText("7.Burpees x40");
+                    jLabel2.setText("2.Squats x15");
+                    jLabel3.setText("3.Lunges x15");
+                    jLabel4.setText("4.Fire hydrant x15");
+                    jLabel5.setText("5.Wall sit x15s");
+                    jLabel6.setText("6.Jumping jacks x30");
+                    jLabel7.setText("7.Burpees x20");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Thursday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Push-ups x30");
-                    jLabel3.setText("3.Shoulder taps x30 (x2)");
-                    jLabel4.setText("4.Triceps dips x30");
-                    jLabel5.setText("5.Punches x40 each arm");
-                    jLabel6.setText("6.Jumping jacks x50");
-                    jLabel7.setText("7.Burpees x40");
+                    jLabel2.setText("2.Push-ups x10");
+                    jLabel3.setText("3.Shoulder taps x10 (x2)");
+                    jLabel4.setText("4.Triceps dips x10");
+                    jLabel5.setText("5.Punches x20 each arm");
+                    jLabel6.setText("6.Jumping jacks x25");
+                    jLabel7.setText("7.Burpees x20");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Friday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Sit-ups x45");
-                    jLabel3.setText("3.Bicycle x45");
-                    jLabel4.setText("4.Leg raise x45 each leg");
-                    jLabel5.setText("5.Plank x90s");
-                    jLabel6.setText("6.Jumping jacks x50");
-                    jLabel7.setText("7.Burpees x40");
+                    jLabel2.setText("2.Sit-ups x15");
+                    jLabel3.setText("3.Bicycle x15");
+                    jLabel4.setText("4.Leg raise x15 each leg");
+                    jLabel5.setText("5.Plank x30s");
+                    jLabel6.setText("6.Jumping jacks x25");
+                    jLabel7.setText("7.Burpees x20");
                     jLabel8.setText("8.Stretch");
                 }
                 else if(getDay().equals("Saturday"))
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Squats x45");
-                    jLabel3.setText("3.Lunges x45");
-                    jLabel4.setText("4.Fire hydrant x45");
-                    jLabel5.setText("5.Wall sit x45s");
-                    jLabel6.setText("6.Jumping jacks x50");
-                    jLabel7.setText("7.Burpees x40");
+                    jLabel2.setText("2.Squats x15");
+                    jLabel3.setText("3.Lunges x15");
+                    jLabel4.setText("4.Fire hydrant x15");
+                    jLabel5.setText("5.Wall sit x15s");
+                    jLabel6.setText("6.Jumping jacks x25");
+                    jLabel7.setText("7.Burpees x20");
                     jLabel8.setText("8.Stretch");
                 }
                 else
-                   
                 {
                     jLabel1.setText("1.Warm up");
-                    jLabel2.setText("2.Push-ups x30");
-                    jLabel3.setText("3.Shoulder taps x30 (x2)");
-                    jLabel4.setText("4.Triceps dips x30");
-                    jLabel5.setText("5.Punches x40 each arm");
-                    jLabel6.setText("6.Jumping jacks x50");
-                    jLabel7.setText("7.Burpees x40");
+                    jLabel2.setText("2.Push-ups x15");
+                    jLabel3.setText("3.Shoulder taps x15 (x2)");
+                    jLabel4.setText("4.Triceps dips x15");
+                    jLabel5.setText("5.Punches x20 each arm");
+                    jLabel6.setText("6.Jumping jacks x25");
+                    jLabel7.setText("7.Burpees x20");
                     jLabel8.setText("8.Stretch");
                 }
             }
@@ -568,6 +574,7 @@ public class Exercise extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -629,6 +636,15 @@ public class Exercise extends javax.swing.JFrame {
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setText("YOUR WORKOUT FOR TODAY");
 
+        jButton2.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(4, 4, 101));
+        jButton2.setText("Info");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -652,16 +668,18 @@ public class Exercise extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(212, 212, 212)
-                        .addComponent(jButton1)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(59, 59, 59)
                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 423, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(61, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(99, 99, 99)
+                .addComponent(jButton1)
+                .addGap(97, 97, 97))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -684,9 +702,11 @@ public class Exercise extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(53, 53, 53)
-                .addComponent(jButton1)
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton1)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(33, 33, 33))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -712,10 +732,16 @@ public class Exercise extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "You can do each exercise up to 3 sets!", " ", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
   
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
