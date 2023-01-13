@@ -386,7 +386,7 @@ public class MainPage extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        if(getN()>1 || getN()!=5){
+        if(getN()>1 && getN()!=5){
             Exercise.setDay("Wednesday");
             Exercise day = new Exercise();
             day.show();
